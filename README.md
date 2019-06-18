@@ -1,12 +1,12 @@
-#Java Launchpad Whack-A-Mole Game
+# Java Launchpad Whack-A-Mole Game
 
 This is a simple Whack-A-Mole game that's played with a Novation Launchpad.  
 
-##Hardware
+## Hardware
 
 So far this has only been tested with a Launchpad Mini.
 
-##How to Play
+## How to Play
 
 Upon loading up the software and successfully opening the Launchpad, the top row of buttons (the round ones) will display some UI elements before the game starts.
 
@@ -16,6 +16,6 @@ Upon loading up the software and successfully opening the Launchpad, the top row
 * Button 8 (green) will start the game
     - If no difficulty is specified, the game will default to easy mode
 
-###Score
+### Score
 
 At the end of the game the Launchpad will light up with one green light for every "mole" that was successfully hit.  The maximum score is 32 for easy mode, 48 for medium mode, and 64 for hard mode.
