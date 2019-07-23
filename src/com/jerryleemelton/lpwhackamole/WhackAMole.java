@@ -109,7 +109,7 @@ public class WhackAMole implements Runnable, Receiver {
         }
 
         // Play countdown intro
-        lpfx.displayScrollingText("3   2   1", 2, launchpadHandler.LIGHT_RED_HIGH);
+        lpfx.displayScrollingText("3   2   1", 50, launchpadHandler.LIGHT_RED_HIGH);
 
         while(numMolesCurrent > 0) {
 
