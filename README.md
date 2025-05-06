@@ -1,21 +1,27 @@
-# Java Launchpad Whack-A-Mole Game
+# Launchpad Whack-A-Mole
 
-This is a simple Whack-A-Mole game that's played with a Novation Launchpad.  
+A "Whack-A-Mole" style game that's played on a Novation Launchpad. This project demonstrates hardware integration by utilizing the Launchpad's grid for interactive gameplay.
 
-## Hardware
+## 🎮 Gameplay Overview
 
-So far this has only been tested with a Launchpad Mini.
+- **Objective**: Hit the "moles" as they appear on the Launchpad grid.
+- **Controls**:
+  - **Difficulty Selection**:
+    - Button 1 (Green): Easy (Slowest speed, 32 possible points)
+    - Button 2 (Yellow): Medium (Medium speed, 48 possible points)
+    - Button 3 (Red): Hard (Fastest speed, 64 possible points)
+  - **Start Game**:
+    - Button 8 (Green): Begins the game with the selected difficulty.
+    - *Note*: If no difficulty is selected, the game defaults to Easy mode.
 
-## How to Play
+## 🛠️ Installation & Setup
 
-Upon loading up the software and successfully opening the Launchpad, the top row of buttons (the round ones) will display some UI elements before the game starts.
+1. **Prerequisites**:
+   - Java Development Kit (JDK) installed (Java 8 or higher)
+   - Novation Launchpad (currently tested with Launchpad Mini Mk. II)
+   - MIDI drivers and permissions configured on your system
 
-* Button 1 (green) will set the difficulty to easy (slowest game speed, 32 possible points)
-* Button 2 (yellow) will set the difficulty to medium (medium game speed, 48 possible points)
-* Button 3 (red) will set the difficulty to hard (fastest game speed, 64 possible points)
-* Button 8 (green) will start the game
-    - If no difficulty is specified, the game will default to easy mode
-
-### Score
-
-At the end of the game the Launchpad will light up with one green light for every "mole" that was successfully hit.  The maximum score is 32 for easy mode, 48 for medium mode, and 64 for hard mode.
+2. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/JerryLeeMelton/Launchpad_Whack-A-Mole.git
+   cd Launchpad_Whack-A-Mole
