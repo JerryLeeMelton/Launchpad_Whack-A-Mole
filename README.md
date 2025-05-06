@@ -37,3 +37,19 @@ A "Whack-A-Mole" style game that's played on a Novation Launchpad. This project 
    ```bash
    git clone https://github.com/JerryLeeMelton/Launchpad_Whack-A-Mole.git
    cd Launchpad_Whack-A-Mole
+
+
+3.  **Compile and Run**:
+    -   Open the project in your preferred IDE.
+    -   Build the project.
+    -   Run the `Main` class located in:
+         ```bash
+        `src/com/jerryleemelton/lpwhackamole/Main.java`
+         
+## 🧰 Technologies Used
+-   Java
+-   MIDI Integration
+-   Novation Launchpad
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
